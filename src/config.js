@@ -7,7 +7,7 @@
 /**
  * 网页的标题。
  */
-var TITLE = "献给我最爱的人";
+var TITLE = "青清520快乐";
 
 /**
  * 预载入图片的提示信息。
@@ -42,7 +42,7 @@ var SHUFFLE = false;
 /**
  * 每幅图片之间的延时，单位为毫秒（1000毫秒为1秒）。
  */
-var DELAY = 8000;
+var DELAY = 1000;
 
 /**
  * 图片切换的过渡动画效果。"random"表示采用随机效果。建议使用"random"。
@@ -52,7 +52,7 @@ var TRANSITION = "random";
 /**
  * 图片切换的过渡动画延时，单位为毫秒（1000毫秒为1秒）。
  */
-var TRANSITION_DURATION = 1000;
+var TRANSITION_DURATION = 300;
 
 /**
  * 图片显示时的动画效果。"random"表示采用随机效果。建议使用"random"。
@@ -72,7 +72,7 @@ var SHOW_SLIDES_COUNTER = true;
 /**
  * 是否显示致谢部分。建议设置为true，感谢所有的资源提供者。
  */
-var SHOW_ACKNOWLEDGEMENT = true;
+var SHOW_ACKNOWLEDGEMENT = false;
 
 /**
  * 是否显示幻灯片播放控制按钮（第一张，最后一张，前一张，下一张）。
@@ -109,7 +109,7 @@ var LOADING_DELAY = 1000;
 /**
  * 所有图片的总数目。如果要添加删除图片，请修改此数目。
  */
-var IMAGE_COUNT = 518;
+var IMAGE_COUNT = 212;
 
 /**
  * 幻灯片播放的图片所在的目录，默认为 "./images"。
@@ -140,7 +140,7 @@ var IMAGES = [];
 /**
  * 所有背景音乐的总数目。如果要添加删除音乐，请修改此数目。
  */
-var MUSIC_COUNT = 2;
+var MUSIC_COUNT = 1;
 
 /**
  * 播放的背景音乐所在的目录，默认为 "./musics"。
